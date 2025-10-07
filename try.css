@@ -1,0 +1,500 @@
+.packages-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    max-width: 900px;
+}
+.packages-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+}
+.package-card {
+    background-color: #fbf30d;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 310px;
+    height: 300px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.package-card-tigo {
+    background-color: #0dbbfb;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 310px;
+    height: 300px;
+    margin-top: 20px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.package-card-telecel {
+    background-color: #ee1c1c;
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width:max-content;
+    height: 300px;
+    margin-top: 20px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+h1 {
+    color: #333;
+
+
+}
+body {
+    margin-top: 0px;
+}
+.data-packages {
+    margin-top: 5px;
+     border-radius: 5px;
+    border-style: none;
+     height: 28px;
+         padding: 5px;
+
+}
+.data-number-input {
+    border-radius: 5px;
+    border-style: none;
+    height: 15%;
+    padding: 5px;
+}
+.buy-button {
+    background-color: rgb(2, 137, 255);
+    color:white;
+    height: 36px;
+    width: 76px;
+    cursor:pointer;
+    border:none;
+    margin:10px;
+    border-radius: 18px;
+    font-weight: bold;
+    font: size 15px;
+    margin-left: 8px;
+    transition: box-shadow 1.5s, opacity 1s;
+}
+.buy-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+}
+ .custom-dropdown {
+            position: relative; /* Essential for positioning the content */
+            display: inline-block;
+            font-family: Arial, sans-serif;
+        }
+
+        /* The button that toggles the dropdown */
+        .dropdown-toggle {
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 10px 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 200px;
+            text-align: left;
+            display: block;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+
+        /* The container for the radio buttons */
+        .dropdown-content {
+            display: none; /* Initially hidden */
+            position: absolute;
+            background-color: #fff;
+            min-width: 200px;
+            border: 1px solid #ccc;
+            box-shadow: 0 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 10;
+            border-radius: 4px;
+            margin-top: 4px;
+        }
+        /* Style the labels inside the dropdown */
+        .dropdown-content label {
+            display: block;
+            padding: 10px 15px;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        /* Highlight the option on hover */
+        .dropdown-content label:hover {
+            background-color: #e9e9e9;
+        }
+        
+        /* Show the content when the 'open' class is applied to the main container */
+        .custom-dropdown.open .dropdown-content {
+            display: block;
+        }
+
+        /* Simple styling for the radio buttons */
+        .dropdown-content input[type="radio"] {
+            margin-right: 8px;
+        }
+
+  .navbar {
+            background-color: #333;
+            color: white;
+            display: flex;
+            align-items: center;
+            z-index: 1;
+
+        }
+
+.menu-button {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 5px 20px;
+        }
+
+        /* --- Sidebar --- */
+        .sidebar {
+            height: 100%; /* Full height */
+            width: 22%; /* Fixed width */
+            position: fixed; /* Stay in place */
+            z-index: 1000; /* Stay on top */
+            top: 0;
+            left: 0;
+            background-color: #f2ecec;
+            overflow-x: hidden;
+            padding-top: 60px; /* Space for the top of the screen */
+            transition: transform 0.3s ease-in-out; /* Smooth sliding effect */
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+
+            /* Initially hidden (moved off-screen to the left) */
+            transform: translateX(-100%);
+        }
+
+        .sidebar.open {
+            /* Toggled state: slide into view */
+            transform: translateX(0);
+        }
+
+        .sidebar a {
+            padding: 15px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #393737;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidebar a:hover {
+            color: #f1f1f1;
+            background-color: #333;
+        }
+        .apple-text {
+    bottom:  0px;
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom:18px;
+
+}
+a {
+    text-decoration: none;
+}
+.gmail {
+    height: 20px;
+    margin-left: 30px;
+    margin-right: 0px;
+    padding-left: 30px;
+    right: 0px;
+}
+
+/* Telecel dropdown text color */
+.package-card-telecel .dropdown-content label {
+    color: black;
+}
+        html, body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #fff;
+        }
+        body, header, section, footer {
+            text-align: center;
+        }
+        .header-flex {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+            position: relative;
+        }
+        .menu-button {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 2rem;
+            cursor: pointer;
+            padding: 5px 10px;
+            margin-right: 10px;
+        }
+        header {
+            width: 100%;
+            box-sizing: border-box;
+        }
+        h1 {
+            font-size: 2.2rem;
+            letter-spacing: 2px;
+            margin: 0;
+            flex: 1;
+            word-break: break-word;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin: 20px 0 10px 0;
+            color: #333;
+        }
+        p {
+            font-size: 1rem;
+            color: #222;
+            max-width: 600px;
+            margin: 0 auto 10px auto;
+        }
+        /* Sidebar styles */
+        .sidebar {
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            background-color: #ffffff;
+            overflow-x: hidden;
+            padding-top: 60px;
+            transition: transform 0.3s ease-in-out;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+            transform: translateX(-100%);
+        }
+        .sidebar.open {
+            transform: translateX(0);
+        }
+        .sidebar a {
+            padding: 15px 20px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            color: #131111;
+            display: block;
+            transition: 0.3s;
+        }
+        .sidebar a:hover {
+            color: #f1f1f1;
+            background-color: #333;
+        }
+        #sidebar-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0;
+            width: 100vw; height: 100vh;
+            background: rgba(0,0,0,0.3);
+            z-index: 999;
+        }
+        /* Centering containers */
+        .packages-container1, .packages-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-top: 30px;
+            margin-bottom: 0px;
+            max-width: 1000px;
+            width: 100%;
+            box-sizing: border-box;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /* Center the section content horizontally */
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .package-card, .package-card-tigo, .package-card-telecel {
+            min-width: 220px;
+            max-width: 340px;
+            width: 100%;
+            margin: 0 auto;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .package-card {
+            background-color: #fbf30d;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 24px;
+            text-align: center;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .package-card-tigo {
+            background-color: #0dbbfb;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 24px;
+            margin-top: 20px;
+            text-align: center;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .package-card-telecel {
+            background-color: #ee1c1c;
+            color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 24px;
+            margin-top: 20px;
+            text-align: center;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .user-input {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .user-input input, .user-input textarea {
+            width: 90%;
+            height: 15px;
+            max-width: 300px;
+            margin: 8px auto;
+            display: block;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .buy-button {
+            background-color: rgb(2, 137, 255);
+            color: white;
+            height: 36px;
+            width: 76px;
+            cursor: pointer;
+            border: none;
+            margin: 10px;
+            border-radius: 18px;
+            font-weight: bold;
+            font-size: 1rem;
+            margin-left: 8px;
+            transition: box-shadow 1.5s, opacity 1s;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .buy-button:hover {
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+            opacity: 0.8;
+        }
+        /* Custom dropdown styles (keep existing) */
+        /* ...existing dropdown styles from your CSS... */
+        /* Contact form */
+        form[action^="mailto:"] {
+            max-width: 400px;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+        }
+        form[action^="mailto:"] input,
+        form[action^="mailto:"] textarea {
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        form[action^="mailto:"] button {
+            padding: 10px 24px;
+            background: #ee1c1c;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /* Footer */
+        .apple-text {
+            width: 100%;
+            font-size: 14px;
+            background-color: rgb(227, 65, 64);
+            color: white;
+            text-align: center;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            margin: 0;
+        }
+        .gmail {
+            height: 20px;
+            margin-left: 30px;
+            margin-right: 0px;
+            padding-left: 30px;
+            right: 0px;
+        }
+        /* Responsive adjustments */
+        @media (max-width: 1000px) {
+            .packages-container1, .packages-container, .apple-text {
+                max-width: 100%;
+                gap: 12px;
+            }
+            .package-card, .package-card-tigo, .package-card-telecel {
+                max-width: 95vw;
+                min-width: 180px;
+                padding: 16px;
+            }
+        }
+                @media (max-width: 10000px) {
+            .apple-text {
+                max-width: 100%;
+                gap: 12px;
+            }
+        }
+        @media (max-width: 600px) {
+            .header-flex {
+                flex-direction: column;
+                gap: 10px;
+            }
+            h1 {
+                font-size: 1.3rem;
+            }
+            h2 {
+                font-size: 1.1rem;
+            }
+            .sidebar {
+                width: 80vw;
+                min-width: 180px;
+            }
+            .package-card, .package-card-tigo, .package-card-telecel {
+                padding: 10px;
+                width: 100%;
+            }
+             .packages-container1, .packages-container, .apple-text {
+                max-width: 100%;
+                gap: 12px;
+            }
+        }

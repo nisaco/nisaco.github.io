@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="try.js"></script>
+    <link rel="stylesheet" href="try.css">
+    <link rel="icon" type="image/x-icon" href="apple-touch-icon.png">
+    <title>Affordable Data Packages | Home</title>
+</head>
+
+
+<body>
+    <header style="background: linear-gradient(90deg, #fbf30d 0%, #0dbbfb 50%, #ee1c1c 100%); padding: 40px 0;">
+        <div class="header-flex">
+            <button class="menu-button" onclick="toggleSidebar()">&#9776;</button>
+            <h1>Affordable Data Packages</h1>
+        </div>
+        <h2>Welcome to Affordable Data Packages</h2>
+        <p>
+            Get the best deals on MTN, AT, and Telecel data bundles. Fast, reliable, and affordable for everyone!
+        </p>
+    </header>
+
+    <div id="sidebar-overlay" onclick="toggleSidebar()"></div>
+    <div id="sidebar" class="sidebar">
+        <a href="#home" onclick="toggleSidebar()">Home</a>
+        <a href="#about" onclick="toggleSidebar()">About</a>
+        <a href="#services" onclick="toggleSidebar()">Services</a>
+        <a href="#contact" onclick="toggleSidebar()">Contact</a>
+        <a href="#" onclick="toggleSidebar()">Close Menu</a>
+    </div>
+
+    <section id="home" style="padding: 40px 0;">
+        <div class="packages-container1">
+            <div class="package-card" data-package-name="MTN Data Package">
+                <h1>MTN PACKAGES</h1>
+                <div class="user-input">
+                    <input type="tel" class="data-number-input" placeholder="Recipient Phone No.">
+                    <h3>Choose a package</h3>
+                </div>
+                <form>
+                    <div class="custom-dropdown" id="radioDropdownMTN">
+                        <button type="button" class="dropdown-toggle" aria-expanded="false" aria-controls="radio-options-mtn">
+                            Select an Option...
+                        </button>
+                        <div class="dropdown-content" id="radio-options-mtn">
+                            <label>
+                                <input type="radio" name="choiceMTN" value="1GB - GHC5"> 1GB - GHC5
+                            </label>
+                            <label>
+                                <input type="radio" name="choiceMTN" value="2GB - GHC8"> 2GB - GHC8
+                            </label>
+                            <label>
+                                <input type="radio" name="choiceMTN" value="5GB - GHC20"> 5GB - GHC20
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="buy-button">BUY</button>
+                </form>
+            </div>
+        </div>
+        <div class="packages-container">
+            <div class="package-card-tigo" data-package-name="AT Data Package">
+                <h1>AT PACKAGES</h1>
+                <div class="user-input">
+                    <input type="tel" class="data-number-input" placeholder="Recipient Phone No.">
+                    <h3>Choose a package</h3>
+                </div>
+                <form>
+                    <div class="custom-dropdown" id="radioDropdownTigo">
+                        <button type="button" class="dropdown-toggle" aria-expanded="false" aria-controls="radio-options-tigo">
+                            Select an Option...
+                        </button>
+                        <div class="dropdown-content" id="radio-options-tigo">
+                            <label>
+                                <input type="radio" name="choiceTigo" value="1GB - GHC5"> 1GB - GHC5
+                            </label>
+                            <label>
+                                <input type="radio" name="choiceTigo" value="2GB - GHC8"> 2GB - GHC8
+                            </label>
+                            <label>
+                                <input type="radio" name="choiceTigo" value="5GB - GHC20"> 5GB - GHC20
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="buy-button">BUY</button>
+                </form>
+            </div>
+            <div class="package-card-telecel" data-package-name="Telecel Data Package">
+                <h1 style="color: white;">TELECEL PACKAGES</h1>
+                <div class="user-input">
+                    <input type="tel" class="data-number-input" placeholder="Recipient Phone No.">
+                    <h3>Choose a package</h3>
+                </div>
+                <form>
+                    <div class="custom-dropdown" id="radioDropdownTelecel">
+                        <button type="button" class="dropdown-toggle" aria-expanded="false" aria-controls="radio-options-telecel">
+                            Select an Option...
+                        </button>
+                        <div class="dropdown-content" id="radio-options-telecel">
+                            <label>
+                                <input type="radio" name="choiceTelecel" value="1GB - GHC5"> 1GB - GHC5
+                            </label>
+                            <label>
+                                <input type="radio" name="choiceTelecel" value="2GB - GHC8"> 2GB - GHC8
+                            </label>
+                            <label>
+                                <input type="radio" name="choiceTelecel" value="5GB - GHC20"> 5GB - GHC20
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="buy-button">BUY</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" style="background:#f9f9f9; padding:40px 0;">
+        <div style="max-width:900px; margin:0 auto; display:flex; flex-direction:column; align-items:center;">
+            <h2>About Us</h2>
+            <p>
+                Affordable Data Packages is your trusted source for fast, reliable, and affordable data bundles in Ghana. We partner with MTN, AT, and Telecel to bring you the best deals and seamless service.
+            </p>
+        </div>
+    </section>
+
+    <section id="services" style="padding:40px 0;">
+        <div style="max-width:900px; margin:0 auto; display:flex; flex-direction:column; align-items:center;">
+            <h2>Our Services</h2>
+            <ul style="list-style:none; padding:0; font-size:1.1rem; color:#444;">
+                <li>Instant Data Bundle Purchase</li>
+                <li>Secure Payment Options</li>
+                <li>Customer Support</li>
+                <li>Bulk Data Packages for Businesses</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" style="background:#f9f9f9; padding:40px 0;">
+        <div style="max-width:900px; margin:0 auto; display:flex; flex-direction:column; align-items:center;">
+            <h2>Contact Us</h2>
+            <p>
+                Have questions or need help? Reach out to us at 
+                <a href="mailto:jnkpappoe@gmail.com" style="color:#ee1c1c; font-weight:bold;">jnkpappoe@gmail.com</a>
+                or call <span style="color:#0dbbfb; font-weight:bold;">+233 549 800 115</span>.
+            </p>
+            <form action="mailto:jnkpappoe@gmail.com" method="POST" enctype="text/plain">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" placeholder="Your Enquiry" required></textarea>
+                <button type="submit">Send Enquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <script>
+        // --- JavaScript for Multiple Dropdowns ---
+        document.querySelectorAll('.custom-dropdown').forEach(dropdown => {
+            const toggleButton = dropdown.querySelector('.dropdown-toggle');
+            const content = dropdown.querySelector('.dropdown-content');
+            const radioButtons = content.querySelectorAll('input[type="radio"]');
+
+            toggleButton.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const isExpanded = dropdown.classList.toggle('open');
+                toggleButton.setAttribute('aria-expanded', isExpanded);
+            });
+
+            radioButtons.forEach(radio => {
+                radio.addEventListener('change', (event) => {
+                    toggleButton.textContent = event.target.value;
+                    dropdown.classList.remove('open');
+                    toggleButton.setAttribute('aria-expanded', 'false');
+                });
+                if (radio.checked) {
+                    toggleButton.textContent = radio.value;
+                }
+            });
+
+            document.addEventListener('click', (event) => {
+                if (!dropdown.contains(event.target)) {
+                    dropdown.classList.remove('open');
+                    toggleButton.setAttribute('aria-expanded', 'false');
+                }
+            });
+        });
+    </script>
+
+    <footer>
+        <p class="apple-text">
+            &copy; 2025 Affordable Data Packages. All rights reserved.<br>
+            Home for Affordable Data Packages.
+            <a href="https://gmail.com" target="_blank">
+                <img class="gmail" src="gmail.png" alt="gmail">
+            </a>
+        </p>
+    </footer>
+</body>
+</html>
